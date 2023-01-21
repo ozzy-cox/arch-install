@@ -9,7 +9,8 @@
 1. Install arch
     - Install packages
 3. Install paru
-4. Install zsh
+4. Install nvidia drivers and make sure to blacklist nouveau
+5. Install zsh
     - Create zsh config file in dotfiles
 6. Install Xorg
 7. Install dwm
