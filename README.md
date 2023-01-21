@@ -2,11 +2,13 @@
 2. Set up an archinstall configuration for faster re-installs.
 3. Get PopOS fonts, I like them.
 4. Learn how to animate transitions on dwm
-5. Install virtualizer in ubuntu
+5. Install virtualizer in ubuntu XXX
 
 
 # Installation
-1. Install arch
+1. (On VM) Vm has to be set to UEFI mode.
+2.  Install arch
+    - Change root and user passwords after installation.
     - Install packages
 3. Install paru
 4. Install nvidia drivers and make sure to blacklist nouveau
