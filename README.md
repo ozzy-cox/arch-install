@@ -7,13 +7,15 @@
 
 # Installation
 1. (On VM) Vm has to be set to UEFI mode.
-2.  Install arch via archinstall.conf 
+1. Boot into live OS, pull in config files.
+1. Alter config files to match the system peripherals. (drives etc.)
+1.  Install arch via archinstall.conf 
     - Change root and user passwords after installation.
     - Set up nvidia drivers disable nouveau.
-3. Install paru
-5. Install zsh
+1. Install paru
+1. Install zsh
     - Create zsh config file in dotfiles
-6. Install Xorg
-7. Install dwm
-8. Install st
-9. Install dmenu
+1. Install Xorg
+1. Install dwm
+1. Install st
+1. Install dmenu

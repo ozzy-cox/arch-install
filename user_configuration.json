@@ -1,0 +1,32 @@
+{
+    "additional-repositories": [
+        "multilib"
+    ],
+    "audio": "pipewire",
+    "bootloader": "systemd-bootctl",
+    "config_version": "2.5.1",
+    "debug": false,
+    "harddrives": [
+        "[drive-name]"
+    ],
+    "hostname": "ozank",
+    "nic": {
+        "dhcp": true,
+        "dns": null,
+        "gateway": null,
+        "iface": null,
+        "ip": null,
+        "type": "nm"
+    },
+    "no_pkg_lookups": false,
+    "ntp": true,
+    "offline": false,
+    "packages": [],
+    "profile": {
+        "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
+    },
+    "script": "guided",
+    "silent": false,
+    "swap": true,
+    "version": "2.5.1"
+}
