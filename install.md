@@ -7,9 +7,10 @@
 
 # Installation
 1. Install arch
-2. Install paru
-3. Install zsh
-4. Create zsh config file in dotfiles
+    - Install packages
+3. Install paru
+4. Install zsh
+5. Create zsh config file in dotfiles
 6. Install Xorg
 7. Install dwm
 8. Install st
