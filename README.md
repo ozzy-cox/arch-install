@@ -9,7 +9,7 @@
 1. (On VM) Vm has to be set to UEFI mode.
 2.  Install arch via archinstall.conf 
     - Change root and user passwords after installation.
-    - Set up nvidia drivers.
+    - Set up nvidia drivers disable nouveau.
 3. Install paru
 5. Install zsh
     - Create zsh config file in dotfiles
