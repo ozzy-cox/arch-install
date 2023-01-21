@@ -3,7 +3,7 @@
 3. Get PopOS fonts, I like them.
 4. Learn how to animate transitions on dwm
 5. Install virtualizer in ubuntu
-
+    asdgasgasd
 
 1. Install arch
 2. Install paru
