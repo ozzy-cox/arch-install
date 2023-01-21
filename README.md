@@ -4,7 +4,7 @@
 4. Learn how to animate transitions on dwm
 5. Install virtualizer in ubuntu XXX
 
-
+`
 # Installation
 1. (On VM) Vm has to be set to UEFI mode.
 1. Boot into live OS, pull in config files.
