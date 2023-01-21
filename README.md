@@ -7,11 +7,10 @@
 
 # Installation
 1. (On VM) Vm has to be set to UEFI mode.
-2.  Install arch
+2.  Install arch via archinstall.conf 
     - Change root and user passwords after installation.
-    - Install packages
+    - Set up nvidia drivers.
 3. Install paru
-4. Install nvidia drivers and make sure to blacklist nouveau
 5. Install zsh
     - Create zsh config file in dotfiles
 6. Install Xorg
