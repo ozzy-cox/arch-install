@@ -10,7 +10,7 @@
     - Install packages
 3. Install paru
 4. Install zsh
-5. Create zsh config file in dotfiles
+    - Create zsh config file in dotfiles
 6. Install Xorg
 7. Install dwm
 8. Install st
