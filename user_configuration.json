@@ -49,7 +49,7 @@
         "docker",
         "pavucontrol", "alsa-firmware", "sof-firmware", "alsa-ucm-conf",
         "zip", "unzip",
-        "openresolv", "iwd", "wireguard-tools"
+        "openresolv", "iwd", "wireguard-tools", "makepkg"
     ],
     "profile": {
         "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
@@ -57,5 +57,9 @@
     "script": "guided",
     "silent": false,
     "swap": true,
-    "version": "2.5.1"
+    "version": "2.5.1",
+    "custom-commands": [
+        "git clone https://github.com/ozzy-cox/dotfiles.git /home/ozank/.dotfiles",
+        "git clone https://aur.archlinux.org/paru.git /opt/paru"
+    ]
 }
