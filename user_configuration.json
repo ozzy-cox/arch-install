@@ -21,7 +21,7 @@
     "no_pkg_lookups": false,
     "ntp": true,
     "offline": false,
-    "packages": [],
+    "packages": ["git", "wget", "vim"],
     "profile": {
         "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
     },
