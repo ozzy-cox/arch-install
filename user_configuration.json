@@ -49,7 +49,8 @@
         "docker",
         "pavucontrol", "alsa-firmware", "sof-firmware", "alsa-ucm-conf",
         "zip", "unzip",
-        "openresolv", "iwd", "wireguard-tools"
+        "openresolv", "iwd", "wireguard-tools",
+        "awesome"
     ],
     "profile": {
         "path": "/usr/lib/python3.10/site-packages/archinstall/profiles/minimal.py"
