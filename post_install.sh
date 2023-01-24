@@ -1,6 +1,8 @@
 
 #!/bin/bash
 sudo pacman -Syu
+sudo chsh -s /usr/bin/zsh 
+
 git config --global user.email "ozankoksal@hotmail.com"
 git config --global user.name "ozank"
 
