@@ -58,9 +58,5 @@
     "script": "guided",
     "silent": false,
     "swap": true,
-    "version": "2.5.1",
-    "custom-commands": [
-        "git clone https://github.com/ozzy-cox/dotfiles.git /home/ozank/.dotfiles",
-        "git clone https://aur.archlinux.org/paru.git /opt/paru"
-    ]
+    "version": "2.5.1"
 }
