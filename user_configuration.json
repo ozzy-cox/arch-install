@@ -52,5 +52,10 @@
     },
     "script": "guided",
     "silent": false,
-    "version": "2.5.1"
+    "version": "2.5.1",
+    "mirror-region": {
+        "Turkey": {
+            "http://ftp.linux.org.tr/archlinux/$repo/os/$arch": true
+        }
+    },
 }
