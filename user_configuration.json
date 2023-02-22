@@ -3,13 +3,9 @@
         "multilib"
     ],
     "audio": "pipewire",
-    "bootloader": "systemd-bootctl",
     "config_version": "2.5.1",
     "debug": false,
-    "harddrives": [
-        "[drive-name]"
-    ],
-    "hostname": "ozank",
+    "hostname": "ozan-archlinux",
     "nic": {
         "dhcp": true,
         "dns": null,
@@ -19,7 +15,6 @@
         "type": "iso"
     },
     "no_pkg_lookups": false,
-    "ntp": true,
     "offline": false,
     "packages": [
         "git",
@@ -57,6 +52,5 @@
     },
     "script": "guided",
     "silent": false,
-    "swap": true,
     "version": "2.5.1"
 }
