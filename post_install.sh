@@ -21,6 +21,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ln -s ~/dotfiles/zshrc ~/.zshrc
 exec $SHELL
 
+paru -S nvidia nvidia-utils lib32-nvidia-utils nvidia-prime
+
 git config --global user.email "ozankoksal@hotmail.com"
 git config --global user.name "ozank"
 
