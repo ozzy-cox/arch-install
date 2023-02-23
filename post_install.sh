@@ -1,6 +1,7 @@
 
 #!/bin/bash
 sudo pacman -Syu
+cd ~
 git clone https://github.com/ozzy-cox/dotfiles.git
 
 # install omz
