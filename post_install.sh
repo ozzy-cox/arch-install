@@ -1,10 +1,11 @@
 
 #!/bin/bash
 sudo pacman -Syu
+git clone https://github.com/ozzy-cox/dotfiles.git
 
 # install omz
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-mv ~/arch-install/.zshrc ~
+ln -s ~/dotfiles/zshrc ~/.zshrc
 exec $SHELL
 
 git config --global user.email "ozankoksal@hotmail.com"
