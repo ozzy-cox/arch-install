@@ -6,7 +6,9 @@ git clone https://github.com/ozzy-cox/dotfiles.git
 
 # install paru
 git clone https://aur.archlinux.org/paru.git /opt/paru
+cd /opt/paru
 makepkg -si
+cd ~
 
 # install pyenv
 curl https://pyenv.run | bash
