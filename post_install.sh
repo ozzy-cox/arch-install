@@ -27,7 +27,7 @@ ln -s ~/dotfiles/xinitrc ~/.xinitrc
 
 paru -S nvidia nvidia-utils lib32-nvidia-utils nvidia-prime
 
-git config --global credential.helper cache
+git config --global credential.helper store
 git config --global user.email "ozankoksal@hotmail.com"
 git config --global user.name "ozank"
 
@@ -35,3 +35,6 @@ git config --global user.name "ozank"
 
 paru -S visual-studio-code-bin
 ln -s ~/dotfiles/vimrc ~/.config/Code/User/.vimrc
+
+
+paru -S neovim-git xclip
