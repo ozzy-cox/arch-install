@@ -33,8 +33,15 @@ git config --global user.name "ozank"
 
 # TODO automate adding ibt.. to launcher entries
 
+# Add VSCode
 paru -S visual-studio-code-bin
 ln -s ~/dotfiles/vimrc ~/.config/Code/User/.vimrc
+ln -s ~/dotfiles/vimrc ~/.vimrc
 
+# Add awesome config
+ln -s ~/dotfiles/config/awesome/rc.lua ~/.config/awesome/rc.lua
+paru -S neovim-git vicious
 
-paru -S neovim-git xclip
+# Add fn controllers
+paru -S brightnessctl pamixer
+
