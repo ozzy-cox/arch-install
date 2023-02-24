@@ -34,3 +34,4 @@ git config --global user.name "ozank"
 # TODO automate adding ibt.. to launcher entries
 
 paru -S visual-studio-code-bin
+ln -s ~/dotfiles/vimrc ~/.config/Code/User/.vimrc
