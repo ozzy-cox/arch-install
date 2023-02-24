@@ -22,11 +22,15 @@ ln -s ~/dotfiles/zshrc ~/.zshrc
 exec $SHELL
 
 ln -s ~/dotfiles/alacritty.yml ~/.alacritty.yml
+ln -s ~/dotfiles/xinitrc ~/.xinitrc
 
 
 paru -S nvidia nvidia-utils lib32-nvidia-utils nvidia-prime
 
+git config --global credential.helper cache
 git config --global user.email "ozankoksal@hotmail.com"
 git config --global user.name "ozank"
 
+# TODO automate adding ibt.. to launcher entries
 
+paru -S visual-studio-code-bin
