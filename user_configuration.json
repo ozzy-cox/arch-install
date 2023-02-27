@@ -57,5 +57,6 @@
         "Turkey": {
             "http://ftp.linux.org.tr/archlinux/$repo/os/$arch": true
         }
-    }
+    },
+    "timezone": "Europe/Istanbul"
 }
