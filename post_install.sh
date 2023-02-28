@@ -41,7 +41,7 @@ ln -s ~/dotfiles/vimrc ~/.vimrc
 
 # Add awesome config
 mkdir ~/.config/awesome
-ln -s ~/dotfiles/config/awesome/rc.lua ~/.config/awesome/rc.lua
+ln -s ~/dotfiles/config/awesome ~/.config/awesome
 paru -S neovim-git vicious
 
 # Add fn controllers
