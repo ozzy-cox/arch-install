@@ -19,6 +19,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 # install omz
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ln -s ~/dotfiles/zshrc ~/.zshrc
+paru -S noto-fonts noto-fonts-emoji ttf-linux-libertine
 exec $SHELL
 
 ln -s ~/dotfiles/alacritty.yml ~/.alacritty.yml
@@ -46,3 +47,5 @@ paru -S neovim-git vicious
 # Add fn controllers
 paru -S brightnessctl pamixer
 
+# Add nvim config and packages
+paru -S nvim-packer-git fd ripgrep
