@@ -36,7 +36,7 @@ git config --global user.name "ozank"
 
 # Add VSCode
 paru -S visual-studio-code-bin
-ln -s ~/dotfiles/vimrc ~/.config/Code/User/.vimrc
+ln -s ~/dotfiles/vimrc
 ln -s ~/dotfiles/vimrc ~/.vimrc
 
 # Add awesome config
@@ -49,3 +49,7 @@ paru -S brightnessctl pamixer
 
 # Add nvim config and packages
 paru -S nvim-packer-git fd ripgrep
+
+# Add i3lock
+paru -S i3lock-color
+ln -s ~/dotfiles/lock.sh ~/lock.sh
